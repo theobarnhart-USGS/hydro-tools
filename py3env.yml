@@ -1,0 +1,32 @@
+name: py3
+dependencies:
+  - python>=3.8
+  - gdal=2.4.1
+  - pyproj=3.0.1
+  - ipython
+  - jupyter
+  - rasterio
+  - geopandas
+  - pandas
+  - matplotlib
+  - netCDF4
+  - pip
+  - descartes
+  - seaborn
+  - jupytext
+  - hydrostats
+  - xarray
+  - dask
+  - distributed
+  - rioxarray
+  - geocube
+  - statsmodels
+  - xlrd
+  - openpyxl
+  - scikit-learn
+  - progressbar
+  - tqdm
+  - openhydrology::lmoments3
+  - pip:
+    - xgrads
+    - git+https://github.com/theobarnhart-USGS/hydro-tools
